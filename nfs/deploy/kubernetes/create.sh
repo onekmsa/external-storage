@@ -1,3 +1,5 @@
+kubectl label node kubernetes-master type=storage
+
 kubectl create ns jx
 kubectl create -f psp.yaml --namespace=jx
 export NAMESPACE=jx
